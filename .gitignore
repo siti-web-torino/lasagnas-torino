@@ -1,0 +1,6 @@
+.sites-local/
+strumenti/
+.DS_Store
+dist/qa.html
+*.tar.gz
+

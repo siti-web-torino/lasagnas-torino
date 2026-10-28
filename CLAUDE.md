@@ -23,6 +23,13 @@ dentro questa cartella (per esempio in strumenti/, ignorata da git), mai a livel
 non devono finire nel sito. Se non c'è un'alternativa, scrivilo in RAPPORTO.md e finisci il
 resto. Non bloccarti mai su un permesso.
 
+## Flusso repository e deploy per ogni nuovo sito
+1. Prima di iniziare un nuovo sito, crea la sua repository dedicata da questo template nell'organizzazione `siti-web-torino`, usando **Use this template** e un nome minuscolo con trattini.
+2. Lavora sui sorgenti di quella repository, conserva le regole e carica file, documentazione e verifiche nella repo prima del deploy. Non lasciare il progetto soltanto nella chat o in una cartella locale.
+3. Usa l'integrazione GitHub già collegata a Vercel: seleziona/importa quella repository e avvia **Deploy**. Non creare un progetto Vercel scollegato o distribuire una copia manuale dei file al posto della repo.
+4. Le modifiche successive passano dalla stessa repository e dal deploy automatico del branch di produzione. Verifica commit, risultato del deploy e link restituito.
+5. Se l'utente chiede un sito pubblico, controlla il link di produzione senza sessione, token o autorizzazioni: deve aprirsi per tutti. La visibilità della repo e quella del sito sono impostazioni distinte e restano quelle concordate con l'utente.
+
 ## Regole non negoziabili
 - DATI: usa solo ciò che è nelle note e nelle foto. Mai inventare orari, prezzi, telefono,
   storia, nomi, recensioni. Ogni dato mancante o letto con dubbio è un riquadro visibile

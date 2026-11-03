@@ -59,3 +59,14 @@ S5 e le schede di consegna confermano un prodotto adatto sia al consumo in sede 
 ## Cosa manca
 Foto autorizzate del cibo e del locale, logo originale con permesso, codici/font ufficiali, menu aggiornato e allergeni approvati, prezzi, orari settimanali, conferma civico 14/B, ragione sociale/P.IVA e contatti destinati al pubblico. Mancano anche conferma dei link delivery e approvazione finale del titolare. La demo resta privata e noindex.
 
+
+
+## Nuovo materiale — 3 novembre 2026
+
+### Catalogo fornito dall’utente
+- img-originali/menu-lasagnas.png, 789×913: menu arancione con cinque lasagne, tre antipasti, quattro insalate e quattro dolci. Prezzi e ingredienti chiaramente leggibili, certezza alta per le 16 voci. Foglie Vegan su radicchio e noci, hummus e cheesecake. Riportata l’annotazione sugli ingredienti surgelati. L’utente chiede espressamente di usarlo per aggiornare i prezzi.
+- img-originali/insegna-lasagnas.png, 871×216: insegna nera con profili luminosi, fondo arancione e simbolo circolare della lasagna. Nessuna persona riconoscibile. Usata come fotografia originale completa, senza ricostruire il logo.
+- Brief testuale allegato: palette, testi editoriali, orari e collegamenti. È la direzione di questa revisione, non una nuova ricerca da ripetere.
+
+### Riscontro Maps
+https://maps.app.goo.gl/fF5LQXXF38y2piSJ7 verificato nel browser il 3 novembre 2026: Lasagnas, Via Giuseppe Parini 14/B, 10121 Torino TO; 351 457 0039; Instagram lasagnas.family; sei giorni 12–15/19–22; mercoledì chiuso; 4,7 e 236 recensioni. Coordinate scheda: 45.065534, 7.6761779. Non sono state copiate recensioni o fotografie pubbliche.

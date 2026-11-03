@@ -3,105 +3,474 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex, nofollow, noarchive">
-  <meta name="theme-color" content="#FF8A00">
-  <meta name="description" content="Proposta indipendente di sito. Contenuti e materiali da confermare.">
-  <title>Proposta di sito — demo</title>
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#FAF4E8">
+  <title>Lasagnas Torino | Lasagne, menu e prezzi · Porta Nuova</title>
+  <meta name="description" content="Lasagnas, lasagneria contemporanea in Via Parini 14/B a Torino, vicino a Porta Nuova. Menu e prezzi: lasagne da 11 €, dolci a 5 €. Prenota su WhatsApp.">
+  <link rel="canonical" href="https://lasagnas-torino.vercel.app/">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lasagnas Torino">
+  <meta property="og:title" content="Lasagnas Torino — Strati di gusto, sfoglia viva e cuore filante.">
+  <meta property="og:description" content="Lasagne tradizionali, speciali e vegane in Via Parini 14/B. Scopri menu, prezzi e orari. Prenota il tavolo o chiedi l’asporto su WhatsApp.">
+  <meta property="og:url" content="https://lasagnas-torino.vercel.app/">
+  <meta property="og:image" content="https://lasagnas-torino.vercel.app/img/insegna-lasagnas.png">
+  <meta property="og:image:width" content="871">
+  <meta property="og:image:height" content="216">
+  <meta property="og:image:alt" content="L’insegna originale Lasagnas, nera e luminosa su fondo arancione">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lasagnas Torino · Lasagne a Porta Nuova">
+  <meta name="twitter:description" content="Menu con prezzi, orari e prenotazioni WhatsApp. Via Giuseppe Parini 14/B, Torino.">
+  <meta name="twitter:image" content="https://lasagnas-torino.vercel.app/img/insegna-lasagnas.png">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preload" href="fonts/bricolage-grotesque.ttf" as="font" type="font/ttf" crossorigin>
   <script src="js/main.js" defer></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://lasagnas-torino.vercel.app/#restaurant",
+  "name": "Lasagnas",
+  "alternateName": "Lasagnas Family Torino",
+  "url": "https://lasagnas-torino.vercel.app/",
+  "description": "Lasagneria contemporanea in centro a Torino, vicino a Porta Nuova. Lasagne tradizionali, speciali e vegane, bruschette, insalate e dolci.",
+  "image": "https://lasagnas-torino.vercel.app/img/insegna-lasagnas.png",
+  "logo": "https://lasagnas-torino.vercel.app/img/insegna-lasagnas.png",
+  "telephone": "+393514570039",
+  "servesCuisine": [
+    "Italiana",
+    "Lasagne"
+  ],
+  "priceRange": "€5–€13",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Giuseppe Parini, 14/B",
+    "postalCode": "10121",
+    "addressLocality": "Torino",
+    "addressRegion": "Piemonte",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.065534,
+    "longitude": 7.6761779
+  },
+  "hasMap": "https://maps.app.goo.gl/fF5LQXXF38y2piSJ7",
+  "sameAs": [
+    "https://www.instagram.com/lasagnas.family"
+  ],
+  "acceptsReservations": true,
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday",
+        "https://schema.org/Saturday",
+        "https://schema.org/Sunday"
+      ],
+      "opens": "12:00",
+      "closes": "15:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "https://schema.org/Monday",
+        "https://schema.org/Tuesday",
+        "https://schema.org/Thursday",
+        "https://schema.org/Friday",
+        "https://schema.org/Saturday",
+        "https://schema.org/Sunday"
+      ],
+      "opens": "19:00",
+      "closes": "22:00"
+    }
+  ],
+  "hasMenu": {
+    "@type": "Menu",
+    "@id": "https://lasagnas-torino.vercel.app/#menu",
+    "name": "Menu Lasagnas Torino",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Le lasagne",
+        "description": "A pranzo, bibita inclusa (escluso vino).",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Classica al ragù",
+            "description": "Il grande classico della tradizione italiana, strato dopo strato.",
+            "offers": {
+              "@type": "Offer",
+              "price": "11",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pesto, fagiolini e patate",
+            "description": "Pesto, fagiolini e patate: la nostra proposta dal gusto ligure.",
+            "offers": {
+              "@type": "Offer",
+              "price": "11",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Salsiccia, funghi e scamorza",
+            "description": "Salsiccia, funghi e scamorza, per chi ama i sapori decisi.",
+            "offers": {
+              "@type": "Offer",
+              "price": "13",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Gamberi e zucchine",
+            "description": "Gamberi e zucchine, tra mare e orto.",
+            "offers": {
+              "@type": "Offer",
+              "price": "13",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Radicchio e noci",
+            "description": "Radicchio e noci: la lasagna vegana del menu.",
+            "suitableForDiet": "https://schema.org/VeganDiet",
+            "offers": {
+              "@type": "Offer",
+              "price": "11",
+              "priceCurrency": "EUR"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Le bruschette",
+        "description": "Antipasti disponibili solo a cena.",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Bruschetta al pomodoro e basilico",
+            "description": "Pomodoro e basilico.",
+            "offers": {
+              "@type": "Offer",
+              "price": "5",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Bruschetta con gorgonzola, pere e noci",
+            "description": "Gorgonzola, pere e noci.",
+            "offers": {
+              "@type": "Offer",
+              "price": "5",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Bruschetta con hummus",
+            "description": "Hummus: un inizio tutto vegan.",
+            "suitableForDiet": "https://schema.org/VeganDiet",
+            "offers": {
+              "@type": "Offer",
+              "price": "5",
+              "priceCurrency": "EUR"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Le insalate",
+        "description": "Solo a pranzo, con bibita inclusa (escluso vino).",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Caprese",
+            "description": "Pomodoro cuore di bue e bocconcini di mozzarella.",
+            "offers": {
+              "@type": "Offer",
+              "price": "10",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Iceberg",
+            "description": "Insalata iceberg, tonno, pomodorini, mais, olive e taralli.",
+            "offers": {
+              "@type": "Offer",
+              "price": "10",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Gamberi",
+            "description": "Rucola, gamberi*, datterino giallo e salsa al mango e curry.",
+            "offers": {
+              "@type": "Offer",
+              "price": "12",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Caesar",
+            "description": "Lattuga, pollo, scaglie di Grana Padano, crostini di pane e salsa allo yogurt.",
+            "offers": {
+              "@type": "Offer",
+              "price": "12",
+              "priceCurrency": "EUR"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Il lato dolce",
+        "description": "Quattro modi per chiudere in dolcezza.",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Lasagnamisù",
+            "description": "Tiramisù rivisitato a strati.",
+            "offers": {
+              "@type": "Offer",
+              "price": "5",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Torta al cioccolato con gelato alla crema",
+            "description": "Cioccolato e gelato alla crema.",
+            "offers": {
+              "@type": "Offer",
+              "price": "5",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Cheesecake ai frutti di bosco",
+            "description": "Ai frutti di bosco, in versione vegan.",
+            "suitableForDiet": "https://schema.org/VeganDiet",
+            "offers": {
+              "@type": "Offer",
+              "price": "5",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Gelato",
+            "description": "Nocciola, pistacchio o crema.",
+            "offers": {
+              "@type": "Offer",
+              "price": "5",
+              "priceCurrency": "EUR"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
-  <div class="demo-bar"><span class="demo-dot" aria-hidden="true"></span><span data-copy="demo.bar"></span></div>
   <header class="site-header">
     <div class="header-inner wrap">
-      <a class="brand" href="#inizio" aria-label="Inizio pagina"><span data-copy="name"></span><span class="brand-place" data-copy="city"></span></a>
-      <button class="nav-toggle" type="button" aria-controls="navigazione" aria-expanded="false" hidden><span data-copy="labels.navigation"></span><span class="toggle-mark" aria-hidden="true"></span></button>
+      <a class="brand" href="#inizio" aria-label="Lasagnas Torino, inizio pagina"><img src="img/insegna-lasagnas.png" width="871" height="216" alt="Lasagnas — insegna originale"><span class="brand-place">Torino</span></a>
+      <button class="nav-toggle" type="button" aria-controls="navigazione" aria-expanded="false" hidden>Menu<span class="toggle-mark" aria-hidden="true"></span></button>
       <nav id="navigazione" class="nav" aria-label="Navigazione principale">
-        <a href="#menu" data-copy="labels.menu"></a>
-        <a href="#ristorante" data-copy="labels.restaurant"></a>
-        <a href="#contatti" data-copy="labels.contacts"></a>
-        <a class="button button-small button-dark" data-link="phone"><span data-copy="labels.call"></span><span aria-hidden="true">↗</span></a>
+        <a href="#menu">Le Lasagne</a><a href="#ristorante">Il Format</a><a href="#prenota">Prenota / Asporto</a><a href="#contatti">Orari e Indirizzo</a>
+        <a class="button button-small button-primary" href="https://wa.me/393514570039" target="_blank" rel="noopener noreferrer">Chiama / WhatsApp <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
-
   <main id="contenuto">
     <section class="hero" id="inizio" aria-labelledby="hero-title">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="small-star" aria-hidden="true">✳</span><span data-copy="hero.eyebrow"></span></p>
-          <h1 id="hero-title"><span data-copy="hero.title.0"></span><span data-copy="hero.title.1"></span><span class="last-line" data-copy="hero.title.2"></span></h1>
-          <p class="hero-intro" data-copy="hero.intro"></p>
-          <div class="hero-actions">
-            <a class="button button-dark" href="#menu"><span data-copy="hero.primary"></span><span aria-hidden="true">↓</span></a>
-            <a class="text-link" href="#contatti"><span data-copy="labels.directions"></span><span aria-hidden="true">↗</span></a>
-          </div>
-          <p class="hero-location" data-copy="hero.location"></p>
+          <p class="eyebrow"><span class="small-star" aria-hidden="true">✳</span> Lasagneria contemporanea · Torino Centro (Porta Nuova)</p>
+          <h1 id="hero-title">Strati di gusto,<br> sfoglia viva<br> e <em>cuore filante.</em></h1>
+          <p class="hero-intro">In Via Giuseppe Parini 14/B, a due passi da Porta Nuova, Lasagnas celebra il piatto simbolo della domenica italiana in chiave contemporanea: dalla Classica tradizionale alle ricette creative di stagione, sfornate calde a pranzo e a cena.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#menu">Scopri menu e prezzi <span aria-hidden="true">↓</span></a><a class="text-link" href="#prenota">Prenota / Asporto <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-proof"><a class="rating" href="https://maps.app.goo.gl/fF5LQXXF38y2piSJ7" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">★</span> 4,7 su Google Maps <span class="rating-detail">(oltre 230 recensioni)</span></a><p>Pranzo 12–15 · Cena 19–22 <span>Mercoledì chiuso</span></p></div>
         </div>
-
-        <div class="hero-visual" aria-hidden="true">
-          <div class="visual-heading"><span data-copy="art.top"></span><span>01—03</span></div>
+        <div class="hero-visual" aria-label="Tre modi di vivere Lasagnas">
+          <div class="visual-heading"><span>La felicità ha tanti strati.</span><span>01—03</span></div>
           <div class="stack-art">
-            <div class="art-sheet sheet-one"><span class="sheet-number">01</span><span class="sheet-title" data-copy="art.layers.0"></span><span class="sheet-end">↗</span></div>
-            <div class="art-sheet sheet-two"><span class="sheet-number">02</span><span class="sheet-title" data-copy="art.layers.1"></span><span class="sheet-end">↗</span></div>
-            <div class="art-sheet sheet-three"><span class="sheet-number">03</span><span class="sheet-title" data-copy="art.layers.2"></span><span class="sheet-end">↗</span></div>
+            <a class="art-sheet sheet-one" href="#menu"><span class="sheet-number">01 / Il piatto</span><span class="sheet-title">La Classica<br> &amp; Le Speciali</span><span class="sheet-description">Sfoglia, ragù lento e varianti creative</span><span class="sheet-end" aria-hidden="true">↗</span></a>
+            <a class="art-sheet sheet-two" href="#contatti"><span class="sheet-number">02 / Il momento</span><span class="sheet-title">Pausa Pranzo<br> &amp; Cena</span><span class="sheet-description">Formula pranzo veloce in centro o cena conviviale</span><span class="sheet-end" aria-hidden="true">↗</span></a>
+            <a class="art-sheet sheet-three" href="#prenota"><span class="sheet-number">03 / Come vuoi tu</span><span class="sheet-title">In Sala<br> o Da Asporto</span><span class="sheet-description">Prenota il tuo tavolo o ritira caldo in Via Parini</span><span class="sheet-end" aria-hidden="true">↗</span></a>
           </div>
-          <div class="visual-bottom"><span data-copy="art.bottom"></span><span class="mini-grid"><i></i><i></i><i></i><i></i></span></div>
+          <div class="visual-bottom"><span>Via Parini 14/B · Torino</span><span class="price-seal">Lasagne da <strong>11 €</strong></span></div>
         </div>
       </div>
-      <div class="hero-strip"><div class="wrap strip-inner"><span data-copy="strip.0"></span><span class="strip-star" aria-hidden="true">✳</span><span data-copy="strip.1"></span><span class="strip-star" aria-hidden="true">✳</span><span data-copy="strip.2"></span></div></div>
+      <div class="hero-strip" role="region" aria-label="Sfoglia artigianale, lasagna classica e creativa, tiramisù della casa, Via Parini 14/B, Porta Nuova Torino"><button class="marquee-toggle" type="button" aria-pressed="false" aria-label="Metti in pausa la fascia scorrevole" hidden>Pausa</button><div class="marquee-track" aria-hidden="true"><div>SFOGLIA ARTIGIANALE <span aria-hidden="true">✳</span> LASAGNA CLASSICA &amp; CREATIVA <span aria-hidden="true">✳</span> TIRAMISÙ DELLA CASA <span aria-hidden="true">✳</span> VIA PARINI 14/B · PORTA NUOVA TORINO <span aria-hidden="true">✳</span></div><div>SFOGLIA ARTIGIANALE <span aria-hidden="true">✳</span> LASAGNA CLASSICA &amp; CREATIVA <span aria-hidden="true">✳</span> TIRAMISÙ DELLA CASA <span aria-hidden="true">✳</span> VIA PARINI 14/B · PORTA NUOVA TORINO <span aria-hidden="true">✳</span></div></div></div>
     </section>
-
     <section class="menu-section section wrap" id="menu" aria-labelledby="menu-title">
-      <div class="section-heading">
-        <p class="eyebrow" data-copy="menu.eyebrow"></p>
-        <div class="heading-grid"><h2 id="menu-title" data-copy="menu.title"></h2><p class="section-intro" data-copy="menu.intro"></p></div>
-      </div>
-      <div class="confirmation menu-confirmation"><span class="confirmation-tag" data-copy="pending.label"></span><p data-copy="menu.pending"></p></div>
-      <div class="menu-toolbar">
-        <div id="menu-filters" class="filters" role="group" aria-label="Filtra le ricette"></div>
-        <p id="menu-count" class="menu-count" role="status" aria-live="polite" aria-atomic="true"></p>
-      </div>
-      <div id="menu-list" class="menu-list"></div>
-      <div class="menu-footer"><p data-copy="menu.footer"></p><a class="text-link" data-link="phone"><span data-copy="menu.contact"></span><span aria-hidden="true">↗</span></a></div>
-    </section>
-
-    <section class="restaurant-section" id="ristorante" aria-labelledby="restaurant-title">
-      <div class="wrap section restaurant-grid">
-        <div class="restaurant-copy"><p class="eyebrow" data-copy="restaurant.eyebrow"></p><h2 id="restaurant-title"><span data-copy="restaurant.title.0"></span><span data-copy="restaurant.title.1"></span></h2><p class="section-intro" data-copy="restaurant.intro"></p><div class="type-art" aria-hidden="true"><span>LASA</span><span>GNAS</span><i>↗</i></div></div>
-        <div class="service-list">
-          <article class="service"><div class="service-top"><span class="service-index">01</span><span class="service-label" data-copy="restaurant.table.label"></span></div><h3 data-copy="restaurant.table.title"></h3><p data-copy="restaurant.table.description"></p><a class="button button-dark" data-link="phone"><span data-copy="labels.call"></span><span aria-hidden="true">↗</span></a></article>
-          <article class="service"><div class="service-top"><span class="service-index">02</span><span class="service-label" data-copy="restaurant.delivery.label"></span></div><h3 data-copy="restaurant.delivery.title"></h3><p data-copy="restaurant.delivery.description"></p><div class="delivery-links"><a class="text-link" data-link="deliveroo" target="_blank" rel="noopener noreferrer"><span data-copy="labels.deliveroo"></span><span aria-hidden="true">↗</span><span class="sr-only">, si apre in una nuova scheda</span></a><a class="text-link" data-link="glovo" target="_blank" rel="noopener noreferrer"><span data-copy="labels.glovo"></span><span aria-hidden="true">↗</span><span class="sr-only">, si apre in una nuova scheda</span></a></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contatti" aria-labelledby="contact-title">
-      <div class="wrap section">
-        <p class="eyebrow" data-copy="contact.eyebrow"></p>
-        <div class="contact-grid">
-          <div class="contact-title"><h2 id="contact-title"><span data-copy="contact.title.0"></span><span data-copy="contact.title.1"></span></h2><a class="button button-dark" data-link="maps" target="_blank" rel="noopener noreferrer"><span data-copy="labels.directions"></span><span aria-hidden="true">↗</span><span class="sr-only">, apre Google Maps in una nuova scheda</span></a></div>
-          <div class="contact-details">
-            <div class="contact-row"><h3 data-copy="contact.addressLabel"></h3><p data-copy="contact.address"></p><p class="small-pending"><span data-copy="pending.label"></span> <span data-copy="contact.addressPending"></span></p></div>
-            <div class="contact-row"><h3 data-copy="contact.hoursLabel"></h3><p class="small-pending"><span data-copy="pending.label"></span></p><p class="contact-small" data-copy="contact.hoursPending"></p></div>
-            <div class="contact-row"><h3 data-copy="contact.phoneLabel"></h3><a class="phone-link" data-link="phone" data-copy="phoneDisplay"></a></div>
-            <div class="contact-row contact-social"><h3 data-copy="contact.socialLabel"></h3><a class="text-link" data-link="instagram" target="_blank" rel="noopener noreferrer"><span data-copy="instagramDisplay"></span><span aria-hidden="true">↗</span><span class="sr-only">, apre Instagram in una nuova scheda</span></a></div>
+      <div class="section-heading"><p class="eyebrow">01 / Menu e prezzi</p><div class="heading-grid"><h2 id="menu-title">Scegli i tuoi<br> <em>strati preferiti.</em></h2><p class="section-intro">La Classica, le speciali, una proposta vegana. Poi bruschette, insalate e un ultimo strato di dolcezza. Qui trovi tutte le proposte del nostro menu.</p></div></div>
+      <div class="lunch-banner"><span class="banner-mark" aria-hidden="true">✳</span><div><h3>La pausa pranzo ha un altro gusto.</h3><p>12:00–15:00 · Con lasagne e insalate, bibita inclusa (escluso vino) e coperto incluso a pranzo.</p></div><span class="lunch-price">Lasagne <strong>11–13 €</strong></span></div>
+      <div class="menu-toolbar"><div id="menu-filters" class="filters" role="group" aria-label="Filtra il menu" hidden>
+        <button type="button" data-filter="all" aria-pressed="true">Tutte</button>
+        <button type="button" data-filter="lasagne" aria-pressed="false">Lasagne</button>
+        <button type="button" data-filter="classiche" aria-pressed="false">Le Classiche &amp; Carne</button>
+        <button type="button" data-filter="vegetariane" aria-pressed="false">Vegetariane &amp; Stagionali</button>
+        <button type="button" data-filter="antipasti-insalate" aria-pressed="false">Antipasti &amp; Insalate</button>
+        <button type="button" data-filter="dolci" aria-pressed="false">Dolci della Casa</button>
+      </div><p id="menu-count" class="menu-count" role="status" aria-live="polite" aria-atomic="true">16 proposte</p></div>
+      <div id="menu-list" class="menu-list">
+        <section class="menu-group" data-menu-group aria-labelledby="lasagne-title">
+          <div class="menu-group-heading"><h3 id="lasagne-title"><span aria-hidden="true">01</span> Le lasagne</h3><p>A pranzo, bibita inclusa (escluso vino).</p></div>
+          <div class="menu-items">
+            <article class="menu-item" data-category="classiche">
+              <span class="item-number" aria-hidden="true">01</span>
+              <div class="item-copy"><h4>Classica al ragù</h4><p>Il grande classico della tradizione italiana, strato dopo strato.</p><span class="item-label">Tradizionale</span></div>
+              <p class="item-price" aria-label="11 euro">11<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="vegetariane">
+              <span class="item-number" aria-hidden="true">02</span>
+              <div class="item-copy"><h4>Pesto, fagiolini e patate</h4><p>Pesto, fagiolini e patate: la nostra proposta dal gusto ligure.</p><span class="item-label">Vegetariana</span></div>
+              <p class="item-price" aria-label="11 euro">11<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="classiche">
+              <span class="item-number" aria-hidden="true">03</span>
+              <div class="item-copy"><h4>Salsiccia, funghi e scamorza</h4><p>Salsiccia, funghi e scamorza, per chi ama i sapori decisi.</p><span class="item-label">Speciale</span></div>
+              <p class="item-price" aria-label="13 euro">13<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="pesce">
+              <span class="item-number" aria-hidden="true">04</span>
+              <div class="item-copy"><h4>Gamberi e zucchine</h4><p>Gamberi e zucchine, tra mare e orto.</p><span class="item-label">Speciale</span></div>
+              <p class="item-price" aria-label="13 euro">13<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="vegetariane">
+              <span class="item-number" aria-hidden="true">05</span>
+              <div class="item-copy"><h4>Radicchio e noci</h4><p>Radicchio e noci: la lasagna vegana del menu.</p><span class="item-label item-label-vegan">Vegan</span></div>
+              <p class="item-price" aria-label="11 euro">11<span> €</span></p>
+            </article>
           </div>
+        </section>
+        <section class="menu-group" data-menu-group aria-labelledby="antipasti-title">
+          <div class="menu-group-heading"><h3 id="antipasti-title"><span aria-hidden="true">02</span> Le bruschette</h3><p>Antipasti disponibili solo a cena.</p></div>
+          <div class="menu-items">
+            <article class="menu-item" data-category="antipasti vegetariane">
+              <span class="item-number" aria-hidden="true">06</span>
+              <div class="item-copy"><h4>Bruschetta al pomodoro e basilico</h4><p>Pomodoro e basilico.</p><span class="item-label">Antipasto</span></div>
+              <p class="item-price" aria-label="5 euro">5<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="antipasti vegetariane">
+              <span class="item-number" aria-hidden="true">07</span>
+              <div class="item-copy"><h4>Bruschetta con gorgonzola, pere e noci</h4><p>Gorgonzola, pere e noci.</p><span class="item-label">Antipasto</span></div>
+              <p class="item-price" aria-label="5 euro">5<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="antipasti vegetariane">
+              <span class="item-number" aria-hidden="true">08</span>
+              <div class="item-copy"><h4>Bruschetta con hummus</h4><p>Hummus: un inizio tutto vegan.</p><span class="item-label item-label-vegan">Vegan</span></div>
+              <p class="item-price" aria-label="5 euro">5<span> €</span></p>
+            </article>
+          </div>
+        </section>
+        <section class="menu-group" data-menu-group aria-labelledby="insalate-title">
+          <div class="menu-group-heading"><h3 id="insalate-title"><span aria-hidden="true">03</span> Le insalate</h3><p>Solo a pranzo, con bibita inclusa (escluso vino).</p></div>
+          <div class="menu-items">
+            <article class="menu-item" data-category="insalate vegetariane">
+              <span class="item-number" aria-hidden="true">09</span>
+              <div class="item-copy"><h4>Caprese</h4><p>Pomodoro cuore di bue e bocconcini di mozzarella.</p><span class="item-label">Insalata</span></div>
+              <p class="item-price" aria-label="10 euro">10<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="insalate pesce">
+              <span class="item-number" aria-hidden="true">10</span>
+              <div class="item-copy"><h4>Iceberg</h4><p>Insalata iceberg, tonno, pomodorini, mais, olive e taralli.</p><span class="item-label">Insalata</span></div>
+              <p class="item-price" aria-label="10 euro">10<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="insalate pesce">
+              <span class="item-number" aria-hidden="true">11</span>
+              <div class="item-copy"><h4>Gamberi</h4><p>Rucola, gamberi*, datterino giallo e salsa al mango e curry.</p><span class="item-label">Insalata</span></div>
+              <p class="item-price" aria-label="12 euro">12<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="insalate classiche">
+              <span class="item-number" aria-hidden="true">12</span>
+              <div class="item-copy"><h4>Caesar</h4><p>Lattuga, pollo, scaglie di Grana Padano, crostini di pane e salsa allo yogurt.</p><span class="item-label">Insalata</span></div>
+              <p class="item-price" aria-label="12 euro">12<span> €</span></p>
+            </article>
+          </div>
+        </section>
+        <section class="menu-group" data-menu-group aria-labelledby="dolci-title">
+          <div class="menu-group-heading"><h3 id="dolci-title"><span aria-hidden="true">04</span> Il lato dolce</h3><p>Quattro modi per chiudere in dolcezza.</p></div>
+          <div class="menu-items">
+            <article class="menu-item" data-category="dolci">
+              <span class="item-number" aria-hidden="true">13</span>
+              <div class="item-copy"><h4>Lasagnamisù</h4><p>Tiramisù rivisitato a strati.</p><span class="item-label">Dolce</span></div>
+              <p class="item-price" aria-label="5 euro">5<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="dolci">
+              <span class="item-number" aria-hidden="true">14</span>
+              <div class="item-copy"><h4>Torta al cioccolato con gelato alla crema</h4><p>Cioccolato e gelato alla crema.</p><span class="item-label">Dolce</span></div>
+              <p class="item-price" aria-label="5 euro">5<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="dolci vegetariane">
+              <span class="item-number" aria-hidden="true">15</span>
+              <div class="item-copy"><h4>Cheesecake ai frutti di bosco</h4><p>Ai frutti di bosco, in versione vegan.</p><span class="item-label item-label-vegan">Vegan</span></div>
+              <p class="item-price" aria-label="5 euro">5<span> €</span></p>
+            </article>
+            <article class="menu-item" data-category="dolci">
+              <span class="item-number" aria-hidden="true">16</span>
+              <div class="item-copy"><h4>Gelato</h4><p>Nocciola, pistacchio o crema.</p><span class="item-label">Dolce</span></div>
+              <p class="item-price" aria-label="5 euro">5<span> €</span></p>
+            </article>
+          </div>
+        </section>
+      </div>
+      <div class="menu-notes"><p>Coperto incluso a pranzo · Coperto a cena <strong>1 €</strong>.</p><p>* Potrebbero contenere ingredienti surgelati. Per ingredienti e allergeni chiedi al personale. Lasagne e insalate: formula pranzo.</p></div>
+      <div class="menu-footer"><p>Le speciali cambiano. Scopri i fuori menu del giorno sul nostro profilo.</p><a class="text-link" href="https://www.instagram.com/lasagnas.family" target="_blank" rel="noopener noreferrer">Oggi su Instagram <span aria-hidden="true">↗</span></a></div>
+      <details class="menu-photo"><summary>Guarda il menu originale fotografato <span aria-hidden="true">↗</span></summary><img src="img/menu-lasagnas.png" width="789" height="913" loading="lazy" decoding="async" alt="Menu originale Lasagnas: cinque lasagne da 11 a 13 euro, tre bruschette a 5 euro, quattro insalate da 10 a 12 euro e quattro dolci a 5 euro."><a class="text-link" href="img/menu-lasagnas.png" target="_blank" rel="noopener noreferrer">Apri la foto a piena dimensione <span aria-hidden="true">↗</span></a></details>
+    </section>
+    <section class="restaurant-section" id="ristorante" aria-labelledby="restaurant-title"><div class="wrap section restaurant-grid">
+      <div class="restaurant-copy"><p class="eyebrow">02 / Il format</p><h2 id="restaurant-title">Il piatto della domenica.<br> <em>Quando vuoi tu.</em></h2><p class="section-intro">Lasagnas è la nostra idea di comfort food: un piatto familiare, ricette contemporanee e il piacere di stare a tavola. Tradizionale, speciale o vegan: a ogni gusto, i suoi strati.</p><figure class="sign-photo"><img src="img/insegna-lasagnas.png" width="871" height="216" loading="lazy" decoding="async" alt="L’insegna originale del ristorante Lasagnas su fondo arancione"><figcaption>Ci riconosci così. Via Giuseppe Parini, 14/B.</figcaption></figure><p class="brand-motto">La felicità<br> ha tanti strati.<span aria-hidden="true">✳</span></p></div>
+      <div class="service-list">
+        <article class="service"><div class="service-top"><span class="service-index">01</span><span>A tavola</span></div><h3>A Tavola in Via Parini 14/B</h3><p>Ambiente curato, informale e rilassato a pochi minuti a piedi da Torino Porta Nuova. Perfetto per una pausa pranzo rigenerante, anche da soli, o per una cena tra amici e in famiglia.</p><a class="text-link" href="https://maps.app.goo.gl/fF5LQXXF38y2piSJ7" target="_blank" rel="noopener noreferrer">Trova il tuo percorso <span aria-hidden="true">↗</span></a><ul class="service-tags" aria-label="Servizi del locale"><li>Tavoli interni</li><li>Asporto</li><li>Carte e NFC</li><li>Kids-friendly</li><li>Solo-dining friendly</li></ul></article>
+        <article class="service booking-service" id="prenota"><div class="service-top"><span class="service-index">02</span><span>Un messaggio, e ci sentiamo</span></div><h3>Prenota il tuo Tavolo o Ritira l’Asporto su WhatsApp</h3><p>Scegli come e quando passare. Prepariamo il messaggio: lo invierai tu su WhatsApp. Tavolo e asporto sono confermati solo dopo la risposta del locale.</p>
+          <form id="booking-form" class="booking-form" hidden>
+            <fieldset><legend>Come preferisci?</legend><div class="choice-grid"><label class="choice"><input type="radio" name="service" value="tavolo" checked><span>Prenota un Tavolo</span></label><label class="choice"><input type="radio" name="service" value="asporto"><span>Ordina per Asporto</span></label></div></fieldset>
+            <div class="form-grid"><div class="field"><label for="booking-date">Giorno</label><input id="booking-date" name="date" type="date" required aria-describedby="booking-days"><small id="booking-days">Mercoledì chiuso</small></div><div class="field"><label for="booking-shift">Turno</label><select id="booking-shift" name="shift"><option value="Pranzo 12:00–15:00">Pranzo 12:00–15:00</option><option value="Cena 19:00–22:00">Cena 19:00–22:00</option></select></div></div>
+            <div class="field" id="people-field"><label for="booking-people">Numero di persone</label><input id="booking-people" name="people" type="number" min="1" step="1" value="2" required></div>
+            <div class="field" id="order-field" hidden><label for="booking-order">Cosa vorresti ordinare?</label><textarea id="booking-order" name="order" rows="3" placeholder="Es. 2 Classiche al ragù e 1 Lasagnamisù" disabled></textarea></div>
+            <div class="field"><label for="booking-notes">Orario preferito e note <span>(facoltativo)</span></label><textarea id="booking-notes" name="notes" rows="2" placeholder="Es. verso le 13:00, oppure una richiesta per il locale"></textarea></div>
+            <div class="message-preview"><span>Il tuo messaggio</span><p id="message-preview">Ciao Lasagnas! Vorrei prenotare un tavolo.</p></div>
+            <a id="whatsapp-send" class="button button-primary" href="https://wa.me/393514570039?text=Ciao%20Lasagnas%21%20Vorrei%20prenotare%20un%20tavolo." target="_blank" rel="noopener noreferrer">Apri WhatsApp <span aria-hidden="true">↗</span></a>
+          </form>
+          <p class="booking-fallback"><a href="https://wa.me/393514570039" target="_blank" rel="noopener noreferrer">Scrivici direttamente su WhatsApp ↗</a> oppure <a href="tel:+393514570039">chiama +39 351 457 0039</a>.</p>
+        </article>
+      </div>
+    </div></section>
+    <section class="contact-section" id="contatti" aria-labelledby="contact-title"><div class="wrap section">
+      <p class="eyebrow">03 / Torino centro · Porta Nuova</p><div class="contact-grid">
+        <div class="contact-title"><h2 id="contact-title">Ci trovi<br> <em>in via Parini.</em></h2><p>A due passi da Porta Nuova.<br> Il prossimo strato ti aspetta qui.</p><a class="button button-primary" href="https://maps.app.goo.gl/fF5LQXXF38y2piSJ7" target="_blank" rel="noopener noreferrer">Come arrivare <span aria-hidden="true">↗</span></a><span class="contact-star" aria-hidden="true">✳</span></div>
+        <div class="contact-details">
+          <div class="contact-row"><h3>Indirizzo</h3><address>Via Giuseppe Parini, 14/B<br> 10121 Torino TO</address><p class="contact-small">Zona Centro / Stazione Porta Nuova</p></div>
+          <div class="contact-row"><h3>Orari</h3><dl class="hours"><div><dt>Lunedì, martedì, giovedì,<br> venerdì, sabato e domenica</dt><dd>12:00–15:00<br> 19:00–22:00</dd></div><div class="closed-day"><dt>Mercoledì</dt><dd>Chiuso</dd></div></dl></div>
+          <div class="contact-row"><h3>Telefono e WhatsApp</h3><a class="phone-link" href="tel:+393514570039">+39 351 457 0039</a><a class="text-link contact-whatsapp" href="https://wa.me/393514570039" target="_blank" rel="noopener noreferrer">Scrivici su WhatsApp <span aria-hidden="true">↗</span></a></div>
+          <div class="contact-row contact-social"><h3>Segui gli strati del giorno</h3><a class="text-link" href="https://www.instagram.com/lasagnas.family" target="_blank" rel="noopener noreferrer">@lasagnas.family <span aria-hidden="true">↗</span></a></div>
         </div>
       </div>
-    </section>
+    </div></section>
   </main>
-
-  <footer class="site-footer">
-    <div class="wrap footer-top"><a class="footer-brand" href="#inizio" data-copy="name"></a><p data-copy="hero.intro"></p><a class="back-top text-link" href="#inizio"><span data-copy="labels.backTop"></span><span aria-hidden="true">↑</span></a></div>
-    <div class="wrap footer-bottom">
-      <p data-copy="demo.footer"></p>
-      <details class="project-notes"><summary data-copy="demo.notesTitle">Note e contenuti da confermare</summary><div class="notes-body"><p data-copy="demo.materials"></p><p data-copy="demo.content"></p><p data-copy="demo.privacy"></p><ul id="source-links" class="source-links"></ul></div></details>
-    </div>
-  </footer>
-  <nav class="mobile-actions" aria-label="Azioni rapide" hidden><a class="button button-light" href="#menu" data-copy="labels.menu"></a><a class="button button-dark" data-link="phone"><span data-copy="labels.shortCall"></span><span aria-hidden="true">↗</span></a></nav>
-  <noscript><div class="noscript-notice">Attiva JavaScript per visualizzare questa proposta di sito e il suo menu. I contenuti della demo richiedono conferma del locale.</div></noscript>
+  <footer class="site-footer"><div class="wrap footer-top"><a class="footer-brand" href="#inizio" aria-label="Lasagnas, torna all’inizio"><img src="img/insegna-lasagnas.png" width="871" height="216" loading="lazy" alt="Lasagnas"></a><p>Lasagne tradizionali, speciali &amp; vegan.<br> Via Giuseppe Parini 14/B · Torino.</p><a class="back-top text-link" href="#inizio">Torna su <span aria-hidden="true">↑</span></a></div><div class="wrap footer-bottom"><p>Progetto digitale realizzato su misura per Lasagnas Family Torino.</p></div></footer>
+  <nav class="mobile-actions" aria-label="Azioni rapide" hidden><a class="button button-light" href="#menu">Menu e prezzi</a><a class="button button-primary" href="#prenota">Prenota / Asporto <span aria-hidden="true">↗</span></a></nav>
 </body>
 </html>

@@ -1,50 +1,32 @@
-# Lasagnas Torino — proposta indipendente di sito
+# Lasagnas Torino
 
-Sito statico preparato con Sites seguendo `siti-web-torino/template-vetrina`.
-Repository dedicata creata nell'organizzazione con **Use this template** il 28/10/2026:
-https://github.com/siti-web-torino/lasagnas-torino
+Sito statico: https://lasagnas-torino.vercel.app/
+Repository: https://github.com/siti-web-torino/lasagnas-torino
 
-Il progetto è una demo, non il sito ufficiale approvato dal locale. `noindex`, `nofollow`, `noarchive` e `robots.txt` chiuso restano attivi.
+## Aggiornamento del 3 novembre 2026
+Palette crema/rosso ragù, Bricolage Grotesque e DM Sans ospitati localmente. La fotografia dell’insegna fornita dall’utente è usata integralmente nell’header, nel format e nel footer: nessun logo ricostruito. Gli originali sono in img-originali/; le copie pubblicate in dist/img/ mantengono gli stessi pixel. Menu fotografato disponibile nella pagina, caricato soltanto quando necessario.
 
-## Leggere prima
-- `RAPPORTO.md`: cosa è pronto e cosa manca.
-- `docs/anteprime/`: verifiche visuali a 390, 768 e 1280px.
-- `STUDIO.md`: identità osservata, fonti, ricette e analisi di sei siti simili.
-- `DECISIONI.md`: tre direzioni, scelta e limiti.
-- `CLAUDE.md`: regole del modello condiviso e flusso repo → Vercel.
+## Contenuti e SEO
+Tutti i contenuti, i 16 piatti con prezzi, i link e gli orari sono scritti direttamente in dist/index.html. Il file contiene anche title, description, canonical, Open Graph, Twitter Card e JSON-LD Restaurant/Menu/Offer. Modificando un prezzo, aggiornare sia la card HTML sia l’offerta JSON-LD corrispondente.
 
-## Modificare i contenuti
-Apri `dist/js/main.js`: l'oggetto `SITE` all'inizio contiene testi, recapiti, link, filtri e ricette. Modifica quello; non aggiungere nuovi dati privi di fonte. `data-copy` e `data-link` collegano i campi all'HTML. La pagina legge i valori da questo unico oggetto: i marker dell’HTML non vanno modificati. Senza JavaScript viene mostrato un avviso esplicito; le informazioni non vengono duplicate in un secondo elenco statico.
+La richiesta SEO/GEO del 3 novembre sostituisce l’impostazione della demo precedente: robots.txt consente la scansione, la meta robots è index/follow e il vecchio X-Robots-Tag noindex è stato tolto da vercel.json. Sitemap in dist/sitemap.xml. Questo abilita la scansione; l’indicizzazione effettiva dipende dai motori di ricerca.
 
-La palette, le scale tipografiche e gli spazi sono nelle variabili in cima a `dist/css/style.css`. Font Bricolage Grotesque e DM Sans locali, con licenze OFL in `dist/fonts/`. Non sono i font ufficiali accertati del marchio: sono una proposta coerente con i riferimenti osservati.
+dist/js/main.js aggiunge soltanto i filtri, la navigazione mobile, la pausa della fascia scorrevole e il configuratore WhatsApp. Non popola i contenuti. Senza JavaScript restano visibili menu, prezzi, contatti, navigazione e collegamenti diretti WhatsApp/telefono.
 
-Nessuna dipendenza, build, CDN, analytics, form, mappa incorporata o foto prelevata dal web. Le azioni telefoniche non eseguono prenotazioni automatiche; i pulsanti delivery aprono le piattaforme esterne. Nessuna chiamata o ordine è stato effettuato durante le prove.
+## Menu e fonti
+I prezzi derivano dalla foto dell’utente del 3 novembre, conservata in img-originali/menu-lasagnas.png: lasagne 11/11/13/13/11 €, bruschette 5 €, insalate 10/10/12/12 €, dolci 5 €. Le formule pranzo comprendono bibita (escluso vino) e coperto; gli antipasti sono disponibili solo a cena, con coperto cena a 1 €. Ingredienti e simboli Vegan sono quelli leggibili nella foto. Non sono state inventate ricette stagionali con prezzi o valutazioni dei piatti.
 
-## Materiali
-Metti le foto originali autorizzate e il logo ufficiale in `img-originali/`, senza alterarli. Pubblica soltanto derivati ottimizzati in `dist/img/` (WebP, lato lungo massimo 1600px, EXIF rimossi). Le foto con persone riconoscibili richiedono consenso e non vanno inserite prima della verifica. La cartella è attualmente vuota: la demo usa composizioni tipografiche, non foto simulate.
+Indirizzo 14/B, CAP, telefono, Instagram e orari sono stati riscontrati sulla scheda Google Maps il 3 novembre 2026: https://maps.app.goo.gl/fF5LQXXF38y2piSJ7 . La scheda mostrava 4,7 stelle e 236 recensioni: il badge riporta prudenzialmente «oltre 230». Il punteggio Google non è inserito in aggregateRating del sito.
 
-## Da confermare con il locale
-- Logo originale, autorizzazione al suo uso e foto del cibo/locale.
-- Codici colore e font ufficiali.
-- Menu, disponibilità, ingredienti, allergeni e prezzi: quelli delle piattaforme non sono un listino ufficiale approvato.
-- Orari settimanali e festivi.
-- Civico 14/B (alcune fonti indicano solo 14).
-- Recapito telefonico destinato alle prenotazioni e link di consegna aggiornati.
-- Ragione sociale, P.IVA, informativa privacy e approvazione finale alla pubblicazione ufficiale.
+Orari: lunedì, martedì, giovedì, venerdì, sabato e domenica 12–15 e 19–22; mercoledì chiuso. Alcuni servizi aggiuntivi e il tono editoriale provengono dal brief allegato dell’utente. Riscontro indipendente per telefono, carte, tavoli e orientamento family: https://turismotorino.org/it/visita/dove-mangiare/lasagnas/ .
 
-Gli avvisi rilevanti sono visibili nella pagina: menu indicativo, orari e civico da confermare; materiali e dati legali nelle note della demo. Nessun dato è stato sostituito con un'invenzione.
+## WhatsApp
+Il visitatore sceglie tavolo/asporto, giorno, turno, persone oppure ordine, ed eventuali note. L’anteprima corrisponde al parametro text del link wa.me. Il sito non invia messaggi: il visitatore apre WhatsApp e invia personalmente. Le richieste attendono risposta del locale. Date passate, mercoledì, numero di persone non valido e ordine vuoto vengono bloccati. Il calendario usa Europe/Rome.
 
-## Deploy dalla repository
-1. Mantieni questa repo come origine del progetto; i file del sito sono in `dist/`.
-2. Nell'integrazione GitHub già collegata a Vercel seleziona/importa `siti-web-torino/lasagnas-torino` e avvia **Deploy**.
-3. Root Directory vuota (radice repo), preset **Other**. `vercel.json` imposta nessun comando di build/installazione e output `dist`.
-4. Produzione dal branch `main`, con aggiornamenti automatici tramite la repo.
-5. Per il sito richiesto pubblico, il dominio di produzione deve aprirsi senza Vercel Authentication. Controllare senza cookie di login e senza link temporanei con bypass.
+## Sviluppo e pubblicazione
+Nessuna dipendenza o build. Servire dist/ con un server HTTP. Verifica sintassi: node --check dist/js/main.js. Il deploy resta collegato alla stessa repository GitHub, branch main, output dist, tramite l’integrazione Vercel esistente.
 
-La visibilità del codice è separata da quella del sito. Il modello condiviso prevede repo private per clienti non confermati. Il piano Hobby di Vercel non supporta il collegamento Git automatico da una repo privata di un'organizzazione: per quel piano è necessaria una repo pubblica. Non è stato cambiato il piano, acquistato nulla o ampliata automaticamente la visibilità del codice.
+Vedere VERIFICHE.md, DECISIONI.md e RAPPORTO.md. Le verifiche del 3 novembre sono in docs/anteprime/2026-11-03/. I documenti precedenti restano come storico e non descrivono lo stato attuale.
 
-Il deploy Vercel è gestito direttamente dall’utente, come richiesto. Nessun progetto Vercel è stato creato e nessun deploy Vercel è stato eseguito dall’assistente per questo sito. Link pubblico: **[DA CONFERMARE]** dopo il deploy dell’utente. La repo resta privata; il passaggio a pubblica, se necessario per il piano Hobby, è una scelta dell’utente.
-
-## Verifica locale
-Apri `dist/index.html` con un server statico. `node --check dist/js/main.js` controlla la sintassi. I percorsi sono relativi e funzionano anche sotto una directory. Il file `qa.html` è uno strumento temporaneo per le anteprime: è ignorato da Git e viene rimosso prima del pacchetto di pubblicazione.
-
+## Materiali ancora utili
+Un logo vettoriale originale e fotografie autorizzate dei piatti permetteranno ulteriori miglioramenti. Nessuna foto di terzi, immagine IA o recensione inventata è stata aggiunta. Ragione sociale, P.IVA e informativa definitiva non sono state fornite né inventate.

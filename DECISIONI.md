@@ -23,3 +23,14 @@ Direzione 1. Nome e prodotto in primo piano; menu e contatti su crema per la leg
 - Nessun form o analytics: nessun consenso cookie aggiunto inutilmente. Link Maps semplice, mai iframe. Informativa della demo sul trattamento tecnico, da rivedere prima di un sito commerciale.
 - Demo Sites privata con `noindex, nofollow, noarchive` e robots.txt chiuso. L'utente ha richiesto esplicitamente un link Vercel pubblico senza autenticazione: il deploy sarà eseguito dall'utente; la pubblicazione su Vercel resta una proposta indipendente, con avvisi e noindex, non il sito ufficiale approvato dal cliente. Visibilità del codice distinta dall'accesso al sito.
 
+
+
+## Aggiornamento — 3 novembre 2026
+
+- Il nuovo brief richiede esplicitamente HTML statico SEO/GEO: sostituisce la precedente sorgente SITE in JavaScript e la modalità noindex della demo. Contenuti e href sono nell’HTML, JSON-LD nello stesso file; JavaScript è progressivo.
+- Conservati Bricolage, impianto editoriale, hero a due colonne e tre schede inclinate. Applicata la palette richiesta: #FAF4E8, #FFFDF9, #C93B2B, #E5A93B, #3A6B4C, #1E1916. Aumentata la distanza tra schede dopo aver osservato che la prima copriva il titolo della seconda a 1280px.
+- L’insegna fotografata è il marchio autentico disponibile. Nessuna estrazione generativa o reinterpretazione delle lettere. L’arancione resta dentro la fotografia originale; l’interfaccia segue la palette richiesta.
+- La foto del menu prevale sulle cinque card generiche del brief: pubblicate tutte le 16 voci con prezzi reali, formule e coperto. Nessun «10/10» attribuito alla Classica. Aggiunti i filtri Lasagne e Antipasti & Insalate per coprire il menu reale.
+- La scheda Maps ha confermato indirizzo 14/B, telefono, orari e 4,7/236. Badge oltre 230, collegato alla fonte; nessun aggregateRating autopromozionale.
+- Configuratore senza backend, cookie, analytics o archivio clienti. Testo WhatsApp preparato localmente, con conferma del locale obbligatoria nella formulazione.
+- La richiesta di aggiornare il sito esistente è eseguita nella stessa repo collegata a Vercel; nessun nuovo progetto Sites/Vercel e nessuna modifica a permessi, piani o domini.

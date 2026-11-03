@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 170" width="100%" height="100%" role="img" aria-label="Insegna Lasagnas Torino">
+  <defs>
+    <filter id="sign3D" x="-10%" y="-10%" width="125%" height="130%">
+      <feDropShadow dx="6" dy="8" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <style>
+      .letter-outer { fill: #141414; stroke: #141414; stroke-width: 10px; stroke-linejoin: round; filter: url(#sign3D); }
+      .letter-neon { fill: #141414; stroke: #FFFFFF; stroke-width: 3.8px; stroke-linejoin: round; fill-rule: evenodd; }
+    </style>
+  </defs>
+
+  <!-- Sfondo Arancione Insegna -->
+  <rect x="0" y="0" width="920" height="170" rx="10" fill="#F07C12"/>
+
+  <!-- LIVELLO OMBRA 3D E BORDO NERO ESTERNO -->
+  <g class="letter-outer">
+    <!-- L -->
+    <path d="M32 28 H54 V118 H94 V140 H54 Q32 140 32 118 Z"/>
+    <!-- A1 -->
+    <path d="M110 140 V68 Q110 28 150 28 H186 V140 H164 V104 H132 V140 Z M132 84 H164 V50 H150 Q132 50 132 68 Z"/>
+    <!-- S1 -->
+    <path d="M276 28 H234 Q204 28 204 58 Q204 88 234 88 H254 Q256 88 256 104 Q256 118 242 118 H204 V140 H244 Q278 140 278 106 Q278 72 246 72 H232 Q226 72 226 58 Q226 50 238 50 H276 Z"/>
+    <!-- A2 -->
+    <path d="M296 140 V68 Q296 28 336 28 H372 V140 H350 V104 H318 V140 Z M318 84 H350 V50 H336 Q318 50 318 68 Z"/>
+    <!-- G -->
+    <path d="M468 28 H434 Q390 28 390 84 Q390 140 434 140 H470 V80 H434 V100 H448 V118 H434 Q412 118 412 84 Q412 50 434 50 H468 Z"/>
+    <!-- n (modulo ad arco) -->
+    <path d="M490 140 V68 Q490 28 530 28 H566 V140 H544 V50 H530 Q512 50 512 68 V140 Z"/>
+    <!-- A3 -->
+    <path d="M586 140 V68 Q586 28 626 28 H662 V140 H640 V104 H608 V140 Z M608 84 H640 V50 H626 Q608 50 608 68 Z"/>
+    <!-- S2 finale -->
+    <path d="M888 28 H846 Q816 28 816 58 Q816 88 846 88 H866 Q868 88 868 104 Q868 118 854 118 H816 V140 H856 Q890 140 890 106 Q890 72 858 72 H844 Q838 72 838 58 Q838 50 850 50 H888 Z"/>
+  </g>
+
+  <!-- LIVELLO INTERNO NEON BIANCO -->
+  <g class="letter-neon">
+    <!-- L -->
+    <path d="M32 28 H54 V118 H94 V140 H54 Q32 140 32 118 Z"/>
+    <!-- A1 -->
+    <path d="M110 140 V68 Q110 28 150 28 H186 V140 H164 V104 H132 V140 Z M132 84 H164 V50 H150 Q132 50 132 68 Z"/>
+    <!-- S1 -->
+    <path d="M276 28 H234 Q204 28 204 58 Q204 88 234 88 H254 Q256 88 256 104 Q256 118 242 118 H204 V140 H244 Q278 140 278 106 Q278 72 246 72 H232 Q226 72 226 58 Q226 50 238 50 H276 Z"/>
+    <!-- A2 -->
+    <path d="M296 140 V68 Q296 28 336 28 H372 V140 H350 V104 H318 V140 Z M318 84 H350 V50 H336 Q318 50 318 68 Z"/>
+    <!-- G -->
+    <path d="M468 28 H434 Q390 28 390 84 Q390 140 434 140 H470 V80 H434 V100 H448 V118 H434 Q412 118 412 84 Q412 50 434 50 H468 Z"/>
+    <!-- n -->
+    <path d="M490 140 V68 Q490 28 530 28 H566 V140 H544 V50 H530 Q512 50 512 68 V140 Z"/>
+    <!-- A3 -->
+    <path d="M586 140 V68 Q586 28 626 28 H662 V140 H640 V104 H608 V140 Z M608 84 H640 V50 H626 Q608 50 608 68 Z"/>
+    <!-- S2 finale -->
+    <path d="M888 28 H846 Q816 28 816 58 Q816 88 846 88 H866 Q868 88 868 104 Q868 118 854 118 H816 V140 H856 Q890 140 890 106 Q890 72 858 72 H844 Q838 72 838 58 Q838 50 850 50 H888 Z"/>
+  </g>
+
+  <!-- BOLLINO LOGO CIRCOLARE TRA "LASAGNA" E "S" -->
+  <g transform="translate(669, 14)">
+    <circle cx="70" cy="70" r="58" fill="#141414" filter="url(#sign3D)"/>
+    <circle cx="70" cy="70" r="52" fill="none" stroke="#FFFFFF" stroke-width="3.8"/>
+    <path d="M70 52 C57 52 53 39 54 35 C62 35 69 41 70 52 Z" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linejoin="round"/>
+    <path d="M70 52 C83 52 87 39 86 35 C78 35 71 41 70 52 Z" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linejoin="round"/>
+    <path d="M42 60 C49 55 56 64 63 60 C70 55 77 64 84 60 C90 56 94 58 98 60 L98 86 C92 91 84 91 77 87 C70 82 63 91 56 87 C49 82 45 89 42 86 Z" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M42 73 C49 68 56 77 63 73 C70 68 77 77 84 73 C90 69 94 71 98 73" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+  </g>
+</svg>

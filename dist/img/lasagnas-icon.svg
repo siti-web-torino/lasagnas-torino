@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="100%" height="100%" role="img" aria-label="Logo Lasagnas Torino">
+  <defs>
+    <filter id="neonShadow" x="-15%" y="-15%" width="135%" height="135%">
+      <feDropShadow dx="4" dy="6" stdDeviation="3" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <!-- Cerchio nero con bordo neon bianco -->
+  <circle cx="70" cy="70" r="62" fill="#141414" filter="url(#neonShadow)"/>
+  <circle cx="70" cy="70" r="56" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <!-- Due foglioline di basilico superiori -->
+  <path d="M70 50 C55 50 51 36 52 32 C61 32 69 39 70 50 Z" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M70 50 C85 50 89 36 88 32 C79 32 71 39 70 50 Z" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Teglia e 3 strati ondulati di sfoglia di lasagna -->
+  <path d="M38 58 C46 53 54 63 62 58 C70 53 78 63 86 58 C92 54 97 56 102 58 L102 88 C95 94 86 94 78 89 C70 84 62 94 54 89 C46 84 42 92 38 88 Z" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 73 C46 68 54 78 62 73 C70 68 78 78 86 73 C92 69 97 71 102 73" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>

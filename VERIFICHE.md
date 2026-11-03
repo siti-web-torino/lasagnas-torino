@@ -16,3 +16,13 @@ Storia verificata: il visitatore legge menu/prezzi senza dipendere da JavaScript
 - Anteprime archiviate in docs/anteprime/2026-11-03/. Prima correzione visiva: eliminate le sovrapposizioni sui testi delle schede della hero.
 
 Non sono state verificate disponibilità del locale o inviate richieste reali. Nessun backend, database o segreto richiesto per questo sito statico.
+
+
+## Revisione SVG del marchio
+
+- Due SVG uguali al codice fornito, XML valido, senza script o riferimenti esterni.
+- Favicon e riferimento logo JSON-LD puntano all’icona circolare. Scritta utilizzata come immagine esterna: i suoi stili non alterano la pagina.
+- Pulsanti: nero #141414 su arancione #F07C12, contrasto superiore a 4,5:1; prezzi ed enfasi testuale in nero.
+- Controllo responsive a 320, 390, 768 e 1280px, compresi gli ingombri di header/footer.
+- Le 16 proposte e i prezzi del menu non cambiano. JavaScript e collegamenti WhatsApp non sono stati modificati.
+- Anteprime della revisione: docs/anteprime/marchio-svg/.

@@ -70,3 +70,8 @@ Foto autorizzate del cibo e del locale, logo originale con permesso, codici/font
 
 ### Riscontro Maps
 https://maps.app.goo.gl/fF5LQXXF38y2piSJ7 verificato nel browser il 3 novembre 2026: Lasagnas, Via Giuseppe Parini 14/B, 10121 Torino TO; 351 457 0039; Instagram lasagnas.family; sei giorni 12–15/19–22; mercoledì chiuso; 4,7 e 236 recensioni. Coordinate scheda: 45.065534, 7.6761779. Non sono state copiate recensioni o fotografie pubbliche.
+
+
+## Vettoriali forniti nel brief successivo — 3 novembre 2026
+
+L’utente ha fornito direttamente due elementi SVG completi: icona circolare 140×140 e insegna 920×170. Sono la fonte di questa revisione, non una vettorializzazione eseguita dall’assistente. I due file pubblicati preservano integralmente tracciati, colori, filtri e proporzioni del codice ricevuto. L’arancione #F07C12 è il valore richiesto dall’utente; non viene presentato come una misurazione indipendente della fotografia.

@@ -34,3 +34,14 @@ Direzione 1. Nome e prodotto in primo piano; menu e contatti su crema per la leg
 - La scheda Maps ha confermato indirizzo 14/B, telefono, orari e 4,7/236. Badge oltre 230, collegato alla fonte; nessun aggregateRating autopromozionale.
 - Configuratore senza backend, cookie, analytics o archivio clienti. Testo WhatsApp preparato localmente, con conferma del locale obbligatoria nella formulazione.
 - La richiesta di aggiornare il sito esistente è eseguita nella stessa repo collegata a Vercel; nessun nuovo progetto Sites/Vercel e nessuna modifica a permessi, piani o domini.
+
+
+## Revisione del marchio SVG — brief successivo del 3 novembre 2026
+
+Il nuovo brief sostituisce la palette crema/rosso con l’arancione #F07C12 dell’insegna, nero #141414, bianco e crema. I due SVG del brief sono pubblicati esattamente come forniti: nessun ridisegno o passaggio generativo. File esterni per isolare gli stili delle lettere dal resto della pagina.
+
+Icona circolare: favicon, header, footer e sigillo nei contatti. Scritta completa: header, footer, hero e format. La foto originale resta conservata, inclusa nell’immagine social; i social non dipendono dalla compatibilità SVG.
+
+I pulsanti arancioni hanno testo nero e bordo nero: bianco su questo arancione non raggiunge AA per i testi piccoli. Il testo di enfasi resta nero, con sottolineatura arancione. Le tre schede della hero usano bianco, arancione e nero. Menu, 16 prezzi, orari, dati strutturati e logica WhatsApp restano quelli verificati: cambia soltanto il riferimento logo nello schema.
+
+Prove a 320, 390, 768 e 1280px. Anteprime in docs/anteprime/marchio-svg/.

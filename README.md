@@ -4,7 +4,7 @@ Sito statico: https://lasagnas-torino.vercel.app/
 Repository: https://github.com/siti-web-torino/lasagnas-torino
 
 ## Aggiornamento del 3 novembre 2026
-Palette crema/rosso ragù, Bricolage Grotesque e DM Sans ospitati localmente. La fotografia dell’insegna fornita dall’utente è usata integralmente nell’header, nel format e nel footer: nessun logo ricostruito. Gli originali sono in img-originali/; le copie pubblicate in dist/img/ mantengono gli stessi pixel. Menu fotografato disponibile nella pagina, caricato soltanto quando necessario.
+Palette dell’insegna: arancione #F07C12, nero #141414, bianco #FFFFFF e crema #FAF4E8. Bricolage Grotesque e DM Sans sono ospitati localmente. Il brief successivo del 3 novembre fornisce due SVG: sono salvati senza modifiche geometriche in dist/img/lasagnas-icon.svg e dist/img/lasagnas-insegna.svg. Icona circolare per favicon, header/footer e sigillo nei contatti; scritta per header/footer, hero e format. Le fotografie originali restano conservate e quella dell’insegna resta l’immagine social, compatibile con le anteprime che non supportano SVG. Menu fotografato disponibile nella pagina, caricato soltanto quando necessario.
 
 ## Contenuti e SEO
 Tutti i contenuti, i 16 piatti con prezzi, i link e gli orari sono scritti direttamente in dist/index.html. Il file contiene anche title, description, canonical, Open Graph, Twitter Card e JSON-LD Restaurant/Menu/Offer. Modificando un prezzo, aggiornare sia la card HTML sia l’offerta JSON-LD corrispondente.
@@ -29,4 +29,4 @@ Nessuna dipendenza o build. Servire dist/ con un server HTTP. Verifica sintassi:
 Vedere VERIFICHE.md, DECISIONI.md e RAPPORTO.md. Le verifiche del 3 novembre sono in docs/anteprime/2026-11-03/. I documenti precedenti restano come storico e non descrivono lo stato attuale.
 
 ## Materiali ancora utili
-Un logo vettoriale originale e fotografie autorizzate dei piatti permetteranno ulteriori miglioramenti. Nessuna foto di terzi, immagine IA o recensione inventata è stata aggiunta. Ragione sociale, P.IVA e informativa definitiva non sono state fornite né inventate.
+Ulteriori fotografie autorizzate dei piatti permetteranno altri miglioramenti. Nessuna foto di terzi, immagine IA o recensione inventata è stata aggiunta. Ragione sociale, P.IVA e informativa definitiva non sono state fornite né inventate.

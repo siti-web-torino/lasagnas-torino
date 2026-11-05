@@ -45,3 +45,10 @@ Icona circolare: favicon, header, footer e sigillo nei contatti. Scritta complet
 I pulsanti arancioni hanno testo nero e bordo nero: bianco su questo arancione non raggiunge AA per i testi piccoli. Il testo di enfasi resta nero, con sottolineatura arancione. Le tre schede della hero usano bianco, arancione e nero. Menu, 16 prezzi, orari, dati strutturati e logica WhatsApp restano quelli verificati: cambia soltanto il riferimento logo nello schema.
 
 Prove a 320, 390, 768 e 1280px. Anteprime in docs/anteprime/marchio-svg/.
+
+## Revisione del 5 novembre 2026
+
+- L’insegna resta nell’header. La teglia SVG e i tre rimandi prendono il suo posto nella hero. Le stelle, i pittogrammi e le frecce sono vettoriali per mantenere lo stesso aspetto su iOS.
+- I piatti si scelgono nel menu e le quantità si modificano nel riepilogo. La selezione resta disponibile cambiando filtro o servizio durante la visita. Il configuratore indica quando una scelta appartiene a un altro turno.
+- Il percorso vegan usa i tre piatti contrassegnati sul menu fotografato. La bruschetta al gorgonzola è fuori dal filtro vegetariano per il caglio di vitello previsto dal [disciplinare del Gorgonzola DOP](https://gorgonzola.com/wp-content/uploads/2023/08/Disciplinare_Gorgonzola_22.9.2017.pdf).
+- Le card Google Maps sono sintesi editoriali del brief e il dato in evidenza riprende la rilevazione del 3 novembre. La consegna a domicilio ha due collegamenti verificati, Glovo e Deliveroo.
